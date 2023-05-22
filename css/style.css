@@ -1,0 +1,205 @@
+.header {
+    height: 81px;
+    border-bottom: 2px solid #f13131;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .ph {
+    float: right;
+}
+
+.header .ph a {
+    padding-left: 32px;
+    line-height: 81px;
+    color: #000000;
+    font-size: 24px;
+    display: inline-block;
+    background: url(../images/lico1.png) no-repeat left center;
+}
+
+.bds {
+    background: url(../images/bg.jpg) no-repeat center top;
+    background-size: cover !important;
+    padding: 60px 0 30px;
+}
+
+.bds .imgs {
+    float: left;
+    width: 530px;
+}
+
+.bds .imgs img {
+    width: 100%;
+    display: block;
+}
+
+.bds .text {
+    float: right;
+    width: 415px;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
+.bds .text ul {
+    overflow: hidden;
+    padding: 0 12px;
+    padding-bottom: 40px;
+}
+
+.bds .text li {
+    float: left;
+}
+
+.bds .text li:nth-child(2n) {
+    float: right;
+}
+
+.bds .text li a {
+    width: 185px;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    transition: all 0.3s;
+}
+
+.bds .text li a span {
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 60px;
+    padding-left: 35px;
+    display: inline-block;
+}
+
+.bds .text li:nth-child(1) a {
+    background: #f13131;
+}
+
+.bds .text li:nth-child(1) a:hover {
+    background: #e52f2f;
+}
+
+.bds .text li:nth-child(1) a span {
+    background: url(../images/lico2.png) no-repeat left center;
+}
+
+.bds .text li:nth-child(2) a {
+    background: #ff9726;
+}
+
+.bds .text li:nth-child(2) a:hover {
+    background: #f18f24;
+}
+
+.bds .text li:nth-child(2) a span {
+    background: url(../images/lico3.png) no-repeat left center;
+}
+
+.bds .text p {
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    overflow: hidden;
+    margin: 0 12px;
+}
+
+.bds .text p span {
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 60px;
+    float: left;
+    display: inline-block;
+}
+
+.bds .text p span:nth-child(2) {
+    float: right;
+}
+
+.bds .text h4 {
+    font-size: 22px;
+    color: #000;
+    line-height: 58px;
+    text-align: center;
+}
+
+.bds .text .wx img {
+    width: 142px;
+    height: 142px;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 3px 3px 10px 1px #d9d9d9;
+}
+
+.bds .text .btns a {
+    margin-top: 30px;
+    height: 42px;
+    border-radius: 21px;
+    display: block;
+    background: #f13131;
+    font-size: 21px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 18px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 42px;
+    text-align: left;
+}
+
+#links {
+    height: 3.38rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #330202;
+    border-top: 1px solid #6a0404;
+    z-index: 999;
+}
+
+.link {
+    background: #474747;
+    line-height: 53px;
+}
+
+.link ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.link li {
+    display: inline-block;
+}
+
+.link li a {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 53px;
+}
+
+.link li span {
+    width: 2px;
+    height: 15px;
+    display: inline-block;
+    background: #7f7f7f;
+    margin: 0 65px;
+}
+
+.copyright {
+    font-size: 18px;
+    line-height: 40px;
+    color: #a3a3a3;
+    text-align: center;
+    background: #000000;
+}
+
+.link li a:hover {
+    color: #f13131;
+}
